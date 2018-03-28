@@ -89,7 +89,7 @@ class Simplert extends React.Component {
               ''
             )}
 
-            {!useConfirmBtn && !hideAllButton ? (
+            {useConfirmBtn && hideAllButton ? (
               <button
                 className={this.classBtnClose()}
                 onClick={closeSimplert.bind(this)}
